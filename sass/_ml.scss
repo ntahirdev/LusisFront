@@ -1,0 +1,102 @@
+.ml-content {
+    background: linear-gradient( 313deg, #e7e3daef 0%, #e7e3dac1 0%, #e7e3da79 100%);
+    position: relative;
+    .shape-ml {
+        position: absolute;
+        right: 0;
+        top: 0;
+        img {
+            width: 100%;
+        }
+    }
+    .mention-legal-content {
+        padding-top: 197px;
+        padding-bottom: 92px;
+        max-width: 994px;
+        margin: 0 auto;
+        .breadcrumbs {
+            ul {
+                display: flex;
+                gap: 20px;
+                li:first-child {
+                    border-right: 1px solid #cd9019;
+                    padding-right: 17px;
+                    a {
+                        font-weight: normal;
+                        font-size: 14px;
+                        text-align: left;
+                        color: #3b424a;
+                        opacity: 0.7;
+                        text-transform: uppercase;
+                    }
+                }
+                li:nth-child(2) {
+                    a {
+                        color: #cd9019;
+                        text-transform: uppercase;
+                    }
+                }
+            }
+        }
+        .main-title {
+            padding-top: 107px;
+            h1 {
+                font-weight: normal;
+                font-size: 44px;
+                line-height: 48px;
+                text-align: left;
+                color: #3b424a;
+                text-transform: uppercase;
+            }
+        }
+        .section-content {
+            padding-top: 34px;
+            p {
+                font-family: "pragmatica";
+                font-weight: normal;
+                font-size: 16px;
+                letter-spacing: 0.03em;
+                line-height: 30px;
+                text-align: left;
+                color: #3b424a;
+                opacity: 1;
+                padding-bottom: 35px;
+            }
+            h3 {
+                font-family: "pragmatica";
+                text-transform: uppercase;
+                font-weight: bold;
+                font-size: 18px;
+                letter-spacing: 0.03em;
+                line-height: 28px;
+                text-align: left;
+                color: #3b424a;
+                opacity: 1;
+                margin-bottom: 12px;
+            }
+            ul {
+                margin-bottom: 63px;
+                position: relative;
+                display: flex;
+                flex-direction: column;
+                gap: 21px;
+                li {
+                    font-family: "pragmatica";
+                    font-weight: normal;
+                    font-size: 16px;
+                    letter-spacing: 0.03em;
+                    line-height: 28px;
+                    text-align: left;
+                    color: #3b424a;
+                    opacity: 1;
+                    &::before {
+                        content: url(../images/dot.png);
+                        font-weight: bold;
+                        display: inline-block;
+                        width: 3em;
+                    }
+                }
+            }
+        }
+    }
+}

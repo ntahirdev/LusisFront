@@ -1,0 +1,46 @@
+.not-found {
+    .section-content {
+        background: linear-gradient(#3b424a 0%, #1a2129 100%);
+        padding-bottom: 215px;
+        padding-top: 302px;
+        .title {
+            h1 {
+                font-weight: normal;
+                font-size: 50px;
+                line-height: 58px;
+                text-align: left;
+                color: #fff;
+                text-transform: uppercase;
+            }
+        }
+        .link {
+            padding-top: 26px;
+            a {
+                -ms-flex-align: center;
+                align-items: center;
+                display: -webkit-box;
+                display: -ms-flexbox;
+                display: flex;
+                gap: 20px;
+                span {
+                    text-transform: uppercase;
+                    font-weight: normal;
+                    font-size: 16px;
+                    line-height: 26px;
+                    text-align: left;
+                    color: #ffb81d;
+                }
+            }
+        }
+        .shape-not-found {
+            position: absolute;
+            top: 0;
+            right: 0;
+        }
+        .final-shape {
+            position: absolute;
+            right: 0;
+            top: 469px;
+        }
+    }
+}
